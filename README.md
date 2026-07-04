@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🩺 Swasthya-Drishti 1.0
-### The AI Command Center Bringing India's District Health System Online
+### AI-Powered Medical Command Center — Patna District, Bihar
 
 **Build with AI: Code for Communities Hackathon** · Team **MACET**
 
