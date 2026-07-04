@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swasthya-Drishti 1.0 | Medical Command Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════ LOADING OVERLAY ═══════════ -->
+  <div id="lov">
+    <div class="lov-pulse-ring"></div>
+    <div class="lov-icon">🏥</div>
+    <div class="lov-title">Swasthya-Drishti 1.0</div>
+    <div class="lov-sub">Medical Command Center · Patna District</div>
+    <div class="lov-bar"><div class="lov-bar-fill"></div></div>
+    <div class="lov-txt" id="lov-txt">Initializing systems…</div>
+  </div>
+
+  <!-- ═══════════ TOAST ═══════════ -->
+  <div id="toast"></div>
+
+  <!-- ═══════════ APP SHELL ═══════════ -->
+  <div id="app">
+
+    <!-- ── SIDEBAR ── -->
+    <nav id="sidebar">
+      <div class="sb-top">
+
+        <!-- ── FIRE LOGO ROW ── -->
+        <div class="sb-logo-row">
+
+          <!-- SVG Interactive Logo — KILLER DESIGN -->
+          <div class="sb-logo-icon" id="sb-logo-icon" title="Swasthya-Drishti">
+            <svg class="logo-svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%"   stop-color="#2ecc82" stop-opacity="0.35"/>
+                  <stop offset="100%" stop-color="#2ecc82" stop-opacity="0"/>
+                </radialGradient>
+                <linearGradient id="crossGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%"   stop-color="#ffffff"/>
+                  <stop offset="100%" stop-color="#b8f5d8"/>
+                </linearGradient>
+                <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%"   stop-color="#1aaf6a"/>
+                  <stop offset="100%" stop-color="#073d22"/>
+                </linearGradient>
+                <filter id="glow">
+                  <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                </filter>
+              </defs>
+
+              <!-- Radial glow bg -->
+              <circle cx="24" cy="24" r="22" fill="url(#glowGrad)" class="logo-glow-bg"/>
+
+              <!-- Outer scan ring -->
+              <circle class="logo-scan" cx="24" cy="24" r="21"
+                stroke="rgba(46,204,130,0.6)" stroke-width="1"
+                stroke-dasharray="6 4" fill="none"/>
+
+              <!-- Shield body -->
+              <path class="logo-shield"
+                d="M24 4 L38 10 L38 26 C38 34 31 40 24 44 C17 40 10 34 10 26 L10 10 Z"
+                fill="url(#shieldGrad)"
+                stroke="rgba(46,204,130,0.5)" stroke-width="1.2"/>
+
+              <!-- Shield inner highlight -->
+              <path d="M24 7 L35.5 12 L35.5 26 C35.5 32.5 30 37.5 24 41 C18 37.5 12.5 32.5 12.5 26 L12.5 12 Z"
+                fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+              <!-- Medical Cross — gradient + glow -->
+              <rect x="20.5" y="13" width="7" height="22" rx="3.5"
+                fill="url(#crossGrad)" filter="url(#glow)" class="logo-cross-v"/>
+              <rect x="13" y="20.5" width="22" height="7" rx="3.5"
+                fill="url(#crossGrad)" filter="url(#glow)" class="logo-cross-h"/>
+
+              <!-- Center diamond -->
+              <rect class="logo-diamond" x="21.5" y="21.5" width="5" height="5" rx="1"
+                transform="rotate(45 24 24)"
+                fill="#2ecc82"/>
+
+              <!-- ECG heartbeat line ABOVE cross -->
+              <polyline class="logo-ecg"
+                points="4,24 9,24 12,17 15.5,31 19,24 29,24 32,19 35.5,29 39,24 44,24"
+                stroke="#2ecc82" stroke-width="1.6"
+                stroke-linecap="round" stroke-linejoin="round" fill="none"
+                filter="url(#glow)"/>
+
+              <!-- 4 corner dots — signal indicators -->
+              <circle class="logo-corner-dot" cx="11" cy="11" r="1.8" fill="rgba(46,204,130,0.7)"/>
+              <circle class="logo-corner-dot" cx="37" cy="11" r="1.8" fill="rgba(46,204,130,0.7)"/>
+              <circle class="logo-corner-dot c3" cx="11" cy="37" r="1.8" fill="rgba(46,204,130,0.4)"/>
+              <circle class="logo-corner-dot c4" cx="37" cy="37" r="1.8" fill="rgba(46,204,130,0.4)"/>
+            </svg>
+          </div>
+
+          <!-- Name + Team MACET badge -->
+          <div class="sb-logo-text">
+            <div class="sb-logo-name">SWASTHYA-DRISHTI</div>
+            <div class="sb-logo-ver">
+              <span class="sb-ver-tag">v1.0</span>
+              <span class="sb-macet-badge">
+                <span class="sb-macet-dot"></span>
+                Team MACET
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sb-status">
+          <div class="sb-status-dot"></div>
+          <div class="sb-status-text" data-i18n="status_live">System Live</div>
+          <div class="sb-status-time" id="sb-clock">--:--</div>
+        </div>
+      </div>
+
+      <div class="nav-section" data-i18n="nav_sec1">Navigation</div>
+
+      <div class="nav-item active" data-view="cockpit">
+        <div class="nav-ico">💻</div>
+        <span class="nav-txt" data-i18n="nav_cockpit">District Cockpit</span>
+      </div>
+      <div class="nav-item" data-view="supply">
+        <div class="nav-ico">💊</div>
+        <span class="nav-txt" data-i18n="nav_supply">Supply Chain</span>
+        <span class="nav-chip" id="supply-chip" style="display:none">0</span>
+      </div>
+      <div class="nav-item" data-view="redist">
+        <div class="nav-ico">🔄</div>
+        <span class="nav-txt" data-i18n="nav_redist">Redistribution</span>
+      </div>
+      <div class="nav-item" data-view="ai">
+        <div class="nav-ico">🤖</div>
+        <span class="nav-txt" data-i18n="nav_ai">AI Analysis</span>
+      </div>
+
+      <div class="nav-section" data-i18n="nav_sec2">System</div>
+      <div class="nav-item" id="nav-ref">
+        <div class="nav-ico">↻</div>
+        <span class="nav-txt" data-i18n="nav_refresh">Refresh Data</span>
+      </div>
+
+      <div class="sb-footer">
+        <div class="lang-row">
+          <div class="lang-btn active" data-lang="en">EN</div>
+          <div class="lang-btn" data-lang="hi">हि</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sidebar overlay (mobile) -->
+    <div id="sb-overlay"></div>
+
+    <!-- ── MOBILE BOTTOM NAV ── -->
+    <div id="bottom-nav">
+      <div class="bn-grid">
+        <button class="bn-item active" data-bnview="cockpit">
+          <span class="bn-ico">⊞</span>
+          <span class="bn-lbl">Cockpit</span>
+        </button>
+        <button class="bn-item" data-bnview="supply">
+          <span class="bn-ico">💊</span>
+          <span class="bn-lbl">Supply</span>
+        </button>
+        <button class="bn-item" data-bnview="redist">
+          <span class="bn-ico">🔄</span>
+          <span class="bn-lbl">Transfer</span>
+        </button>
+        <button class="bn-item" data-bnview="ai">
+          <span class="bn-ico">🤖</span>
+          <span class="bn-lbl">AI</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ── MAIN ── -->
+    <div id="main">
+
+      <!-- TOPBAR -->
+      <div id="topbar">
+        <button id="ham-btn" aria-label="Menu">☰</button>
+        <div class="tb-breadcrumb">
+          <span>Patna District</span>
+          <span class="sep">›</span>
+          <span data-i18n="nav_cockpit" class="current" id="tb-view-name">District Cockpit</span>
+
+          <!-- Simple hospital logo -->
+          <div class="tb-hosp-wrap" id="tb-hosp-wrap" aria-label="Hospital logo" title="Hospital">
+            <div class="tb-hosp-icon">🏥</div>
+          </div>
+
+        </div>
+        <div class="tb-right">
+          <div class="tb-live-pill">
+            <div class="tb-live-dot"></div>
+            <div class="tb-live-txt" data-i18n="live_label">LIVE</div>
+          </div>
+          <div class="tb-clock" id="tb-clock">--:--:--</div>
+          <button class="tb-btn" id="tb-ref">
+            <span class="btn-ico">↻</span>
+            <span data-i18n="btn_refresh">Refresh</span>
+          </button>
+          <button id="theme-toggle" title="Toggle Dark / Light Mode" aria-label="Toggle theme">
+            <span class="theme-ico ico-sun">☀️</span>
+            <span class="theme-ico ico-moon">🌙</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- CONTENT WRAPPER -->
+      <div id="cwrap">
+        <div id="scroll">
+
+          <!-- ══════════ COCKPIT VIEW ══════════ -->
+          <div class="view active" id="view-cockpit">
+
+            <!-- KPI Grid -->
+            <div class="kpi-grid">
+
+              <!-- Critical Centers — clickable -->
+              <div class="kpi k-red kpi-clickable" id="kpi-crit" data-kpi="critical" title="Click to see critical centers">
+                <div class="kpi-glow"></div>
+                <div class="kpi-trend-bg"></div>
+                <div class="kpi-hd">
+                  <div class="kpi-label" data-i18n="kpi_critical">Critical Centers</div>
+                  <div class="kpi-icon">🚨</div>
+                </div>
+                <div class="kpi-val" id="kv-crit">—</div>
+                <div class="kpi-sub" id="ks-crit">—</div>
+                <div class="kpi-click-hint">tap to expand ↓</div>
+              </div>
+
+              <!-- Bed Occupancy — clickable -->
+              <div class="kpi k-amber kpi-clickable" id="kpi-beds" data-kpi="beds" title="Click to see bed details">
+                <div class="kpi-glow"></div>
+                <div class="kpi-trend-bg"></div>
+                <div class="kpi-hd">
+                  <div class="kpi-label" data-i18n="kpi_beds">Bed Occupancy</div>
+                  <div class="kpi-icon">🛏</div>
+                </div>
+                <div class="kpi-val" id="kv-beds">—</div>
+                <div class="kpi-sub" id="ks-beds">—</div>
+                <div class="kpi-bar-wrap"><div class="kpi-bar" id="kpi-bar-beds"></div></div>
+                <div class="kpi-click-hint">tap to expand ↓</div>
+              </div>
+
+              <!-- Doctor Attendance — clickable -->
+              <div class="kpi k-blue kpi-clickable" id="kpi-docs" data-kpi="docs" title="Click to see doctor details">
+                <div class="kpi-glow"></div>
+                <div class="kpi-trend-bg"></div>
+                <div class="kpi-hd">
+                  <div class="kpi-label" data-i18n="kpi_docs">Doctor Attendance</div>
+                  <div class="kpi-icon">👨‍⚕️</div>
+                </div>
+                <div class="kpi-val" id="kv-docs">—</div>
+                <div class="kpi-sub" id="ks-docs">—</div>
+                <div class="kpi-bar-wrap"><div class="kpi-bar" id="kpi-bar-docs"></div></div>
+                <div class="kpi-click-hint">tap to expand ↓</div>
+              </div>
+
+              <!-- Avg Footfall — clickable -->
+              <div class="kpi k-green kpi-clickable" id="kpi-ff" data-kpi="footfall" title="Click to see footfall details">
+                <div class="kpi-glow"></div>
+                <div class="kpi-trend-bg"></div>
+                <div class="kpi-hd">
+                  <div class="kpi-label" data-i18n="kpi_footfall">Avg Footfall</div>
+                  <div class="kpi-icon">👥</div>
+                </div>
+                <div class="kpi-val" id="kv-ff">—</div>
+                <div class="kpi-sub" data-i18n="kpi_ff_sub">patients/day · today</div>
+                <div class="kpi-click-hint">tap to expand ↓</div>
+              </div>
+            </div>
+
+            <!-- KPI Detail Drawer (expands on click) -->
+            <div class="kpi-drawer" id="kpi-drawer">
+              <div class="kpi-drawer-inner" id="kpi-drawer-inner"></div>
+            </div>
+
+            <!-- Health Center Network -->
+            <div class="net-wrap">
+              <div class="sh">
+                <div class="sh-l">
+                  <div class="sh-line"></div>
+                  <div class="sh-title" data-i18n="sh_network">Health Center Network</div>
+                  <div class="sh-tag" id="net-tag">5 FACILITIES</div>
+                </div>
+                <div class="sh-r" data-i18n="sh_network_sub">Click center to focus charts</div>
+              </div>
+              <div class="net-grid" id="net-grid"></div>
+            </div>
+
+            <!-- Charts Row — enhanced -->
+            <div class="chart-row">
+              <div class="chart-card chart-card-main">
+                <div class="sh">
+                  <div class="sh-l">
+                    <div class="sh-line"></div>
+                    <div class="sh-title" data-i18n="sh_footfall">30-Day Patient Footfall</div>
+                  </div>
+                  <div class="chart-controls">
+                    <button class="chart-btn active" data-chart-mode="line">Line</button>
+                    <button class="chart-btn" data-chart-mode="bar">Bar</button>
+                    <span class="sh-r" id="ff-lbl">All Centers</span>
+                  </div>
+                </div>
+                <div class="chart-stats-row" id="ff-stats"></div>
+                <div class="chart-inner chart-inner-lg"><canvas id="ff-chart"></canvas></div>
+              </div>
+              <div class="chart-card">
+                <div class="sh">
+                  <div class="sh-l">
+                    <div class="sh-line"></div>
+                    <div class="sh-title" data-i18n="sh_disease">Disease Distribution</div>
+                  </div>
+                  <div class="sh-r" id="dd-lbl">District</div>
+                </div>
+                <div class="disease-legend" id="disease-legend"></div>
+                <div class="chart-inner"><canvas id="dd-chart"></canvas></div>
+              </div>
+            </div>
+
+            <!-- District Summary Bar -->
+            <div class="district-bar" id="district-bar"></div>
+
+          </div><!-- /view-cockpit -->
+
+          <!-- ══════════ SUPPLY VIEW ══════════ -->
+          <div class="view" id="view-supply">
+            <div class="sh" style="margin-bottom:14px">
+              <div class="sh-l">
+                <div class="sh-line"></div>
+                <div class="sh-title" data-i18n="sh_supply">Medicine Stock Intelligence</div>
+              </div>
+              <div class="sh-r" data-i18n="sh_supply_sub">Sorted by urgency</div>
+            </div>
+            <div class="tbl-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th data-i18n="th_center">Center</th>
+                    <th data-i18n="th_med">Medicine</th>
+                    <th data-i18n="th_stock">Stock (Units)</th>
+                    <th data-i18n="th_daily">Daily Use</th>
+                    <th data-i18n="th_days">Days Left</th>
+                    <th data-i18n="th_level">Level</th>
+                  </tr>
+                </thead>
+                <tbody id="supply-tbody"></tbody>
+              </table>
+            </div>
+          </div><!-- /view-supply -->
+
+          <!-- ══════════ REDIST VIEW ══════════ -->
+          <div class="view" id="view-redist">
+            <div class="sh" style="margin-bottom:14px">
+              <div class="sh-l">
+                <div class="sh-line"></div>
+                <div class="sh-title" data-i18n="sh_redist">AI Redistribution Plan</div>
+              </div>
+              <div class="sh-r" data-i18n="sh_redist_sub">Click Done to execute transfer</div>
+            </div>
+            <div class="redist-card" id="redist-list"></div>
+          </div><!-- /view-redist -->
+
+          <!-- ══════════ AI VIEW ══════════ -->
+          <div class="view" id="view-ai">
+            <div class="sh" style="margin-bottom:14px">
+              <div class="sh-l">
+                <div class="sh-line"></div>
+                <div class="sh-title" data-i18n="sh_ai">AI District Intelligence</div>
+              </div>
+              <div class="sh-r" data-i18n="sh_ai_sub">Gemini 1.5 Flash</div>
+            </div>
+            <div class="ai-card">
+              <div class="ai-hdr">
+                <div class="ai-hdr-l">
+                  <div class="ai-hdr-icon">🤖</div>
+                  <div>
+                    <div class="ai-hdr-title" data-i18n="ai_title">Gemini Health Intelligence Engine</div>
+                    <div class="ai-hdr-sub" data-i18n="ai_sub">Real-time district analysis · Patna</div>
+                  </div>
+                </div>
+                <div class="ai-model">gemini-1.5-flash</div>
+              </div>
+              <div class="ai-body">
+                <button class="ai-btn" id="ai-btn">
+                  <span id="ai-ico">⚡</span>
+                  <span id="ai-txt" data-i18n="ai_btn">Generate AI Analysis</span>
+                </button>
+                <div class="ai-result" id="ai-result" style="display:none">
+                  <div class="ai-block">
+                    <div class="ai-block-lbl"><div class="ai-block-dot"></div><span data-i18n="ai_summary">Executive Summary</span></div>
+                    <div class="ai-block-txt" id="ai-summary"></div>
+                  </div>
+                  <div class="ai-block">
+                    <div class="ai-block-lbl"><div class="ai-block-dot"></div><span data-i18n="ai_actions">Critical Actions</span></div>
+                    <ul class="ai-list" id="ai-actions"></ul>
+                  </div>
+                  <div class="ai-block">
+                    <div class="ai-block-lbl"><div class="ai-block-dot"></div><span data-i18n="ai_trend">Trend Analysis</span></div>
+                    <div class="ai-block-txt" id="ai-trend"></div>
+                  </div>
+                  <div class="ai-block">
+                    <div class="ai-block-lbl"><div class="ai-block-dot"></div><span data-i18n="ai_resource">Resource Optimization</span></div>
+                    <div class="ai-block-txt" id="ai-resource"></div>
+                  </div>
+                  <div class="ai-block">
+                    <div class="ai-block-lbl"><div class="ai-block-dot"></div><span data-i18n="ai_risk">7-Day Risk Forecast</span></div>
+                    <div class="ai-block-txt" id="ai-risk"></div>
+                  </div>
+                  <div class="ai-src" id="ai-src"></div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /view-ai -->
+
+        </div><!-- /scroll -->
+
+        <!-- ══════════ ALERTS PANEL ══════════ -->
+        <div id="alerts">
+          <div class="al-hdr">
+            <div class="al-hdr-ico">🔔</div>
+            <div class="al-hdr-title" data-i18n="al_title">Smart Alerts</div>
+            <div class="al-count" id="al-count">0</div>
+          </div>
+          <div class="al-list" id="al-list">
+            <div class="al-empty" data-i18n="al_loading">Loading…</div>
+          </div>
+          <div class="al-footer" data-i18n="al_footer">Real-time · Auto-refresh 60s</div>
+        </div>
+
+      </div><!-- /cwrap -->
+    </div><!-- /main -->
+  </div><!-- /app -->
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
