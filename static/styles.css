@@ -2492,7 +2492,7 @@ tbody td:first-child { color: var(--t1); font-weight: 600; }
    ============================================ */
 
 @media (max-width: 768px) {
-  /* Topbar ko fixed rakho - Sabse important */
+ 
   #topbar {
     position: fixed !important;
     top: 0 !important;
@@ -2514,26 +2514,26 @@ tbody td:first-child { color: var(--t1); font-weight: 600; }
     -webkit-backface-visibility: hidden !important;
   }
 
-  /* Main container ko topbar ke neeche shift karo */
+
   #app {
     margin-top: 56px !important;
     height: calc(100vh - 56px) !important;
     height: calc(100dvh - 56px) !important;
   }
 
-  /* Sidebar ko topbar se neeche karo */
+ 
   #sidebar.mob-open {
     margin-top: 56px !important;
     height: calc(100% - 56px) !important;
     top: 56px !important;
   }
 
-  /* Bottom nav ko sahi karo */
+  
   #bottom-nav {
     z-index: 999999 !important;
   }
 
-  /* Scroll area ko sahi karo */
+  
   #scroll {
     padding: 16px 16px 90px !important;
     height: 100% !important;
@@ -2541,7 +2541,7 @@ tbody td:first-child { color: var(--t1); font-weight: 600; }
     -webkit-overflow-scrolling: touch !important;
   }
 
-  /* KPI grid mobile par */
+  
   .kpi-grid {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px !important;
@@ -2555,7 +2555,7 @@ tbody td:first-child { color: var(--t1); font-weight: 600; }
     grid-template-columns: 1fr !important;
   }
 
-  /* Topbar ke kuch elements mobile par hide */
+
   #topbar .tb-live-pill,
   #topbar .tb-clock {
     display: none !important;
@@ -2635,7 +2635,7 @@ tbody td:first-child { color: var(--t1); font-weight: 600; }
   }
 }
 
-/* iPhone notch ke liye safe area */
+
 @supports (padding: max(0px)) {
   @media (max-width: 768px) {
     #topbar {
@@ -2661,7 +2661,7 @@ tbody td:first-child { color: var(--t1); font-weight: 600; }
    🚀 TOAST NOTIFICATION FIX - MOBILE
    ============================================ */
 
-/* Toast ko top par fix karo */
+
 #toast {
   position: fixed !important;
   top: 70px !important;
@@ -2701,7 +2701,7 @@ tbody td:first-child { color: var(--t1); font-weight: 600; }
   border: 1px solid rgba(255,255,255,0.1) !important;
 }
 
-/* Mobile par toast ko aur neeche karo taaki topbar se na takraye */
+
 @media (max-width: 768px) {
   #toast {
     top: 70px !important;
