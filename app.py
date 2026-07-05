@@ -605,10 +605,11 @@ def api_cache_clear():
 
 
 # ── Serve frontend ───────────────────────────────────────
+
 @app.route("/")
 def serve_index():
-    # पक्का कर लें कि index.html आपके उसी फोल्डर में है जहाँ app.py है
-    return send_from_directory(BASE_DIR, "index.html")
+    return send_from_directory(os.path.join(BASE_DIR, 'templates'), 'index.html')
+  
   
 
 @app.route("/<path:path>")
