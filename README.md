@@ -1,101 +1,173 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/BUILD%20WITH%20AI-Code%20for%20Communities-10b981?style=for-the-badge&labelColor=0f172a&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyUzYuNDggMjIgMTIgMjJTMjIgMTcuNTIgMjIgMTJTMTcuNTIgMiAxMiAyWk0xMyAxN0gxMVY5SDEzVjE3Wk0xMyA3SDExVjVIMTNWN1oiLz48L3N2Zz4=" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0,064e3b,10b981&height=200&section=header&text=स्वास्थ्य%20दृष्टि&fontSize=60&fontAlignY=35&desc=Swasthya-Drishti%201.0%20·%20AI%20Medical%20Command%20Center&descAlignY=58&fontColor=ffffff&descColor=6ee7b7" />
 
 <br/>
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║  ███████╗██╗    ██╗ █████╗ ███████╗████████╗██╗  ██╗██╗   ██╗  ║
-║  ██╔════╝██║    ██║██╔══██╗██╔════╝╚══██╔══╝██║  ██║╚██╗ ██╔╝  ║
-║  ███████╗██║ █╗ ██║███████║███████╗   ██║   ███████║ ╚████╔╝   ║
-║  ╚════██║██║███╗██║██╔══██║╚════██║   ██║   ██╔══██║  ╚██╔╝    ║
-║  ███████║╚███╔███╔╝██║  ██║███████║   ██║   ██║  ██║   ██║     ║
-║  ╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝     ║
-║                                                                 ║
-║          ██████╗ ██████╗ ██╗███████╗██╗  ██╗████████╗██╗       ║
-║          ██╔══██╗██╔══██╗██║██╔════╝██║  ██║╚══██╔══╝██║       ║
-║          ██║  ██║██████╔╝██║███████╗███████║   ██║   ██║       ║
-║          ██║  ██║██╔══██╗██║╚════██║██╔══██║   ██║   ██║       ║
-║          ██████╔╝██║  ██║██║███████║██║  ██║   ██║   ██║       ║
-║          ╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝       ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+<a href="https://swasthya-drishti-1-0.onrender.com/">
+  <img src="https://img.shields.io/badge/🚀%20LIVE%20DEMO-swasthya--drishti--1--0.onrender.com-10b981?style=for-the-badge&labelColor=064e3b" />
+</a>
 
-# स्वास्थ्य दृष्टि 1.0
-### AI-Powered District Health Command Center · Patna, Bihar
-
-<br/>
-
-[![Live Demo](https://img.shields.io/badge/🚀%20LIVE%20DEMO-swasthya--drishti.onrender.com-10b981?style=for-the-badge&labelColor=064e3b)](https://swasthya-drishti-1-0.onrender.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-mdkamran623-0f172a?style=for-the-badge&logo=github)](https://github.com/mdkamran623/Swasthya-Drishti-1.0)
-[![Hackathon](https://img.shields.io/badge/Hackathon-Build%20with%20AI%202026-f59e0b?style=for-the-badge&labelColor=1c1917)](https://hack2skill.com)
-[![Track](https://img.shields.io/badge/Track-Smart%20Health-3b82f6?style=for-the-badge&labelColor=1e3a8a)](https://hack2skill.com)
-
-<br/>
+<br/><br/>
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.0.3-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
-[![Gemini](https://img.shields.io/badge/Gemini%201.5%20Flash-AI%20Engine-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev)
+[![Gemini](https://img.shields.io/badge/Gemini%201.5%20Flash-AI%20Engine-4285F4?style=flat-square&logo=google&logoColor=white)](https://aistudio.google.com)
 [![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)](https://chartjs.org)
-[![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=white)](https://render.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Render](https://img.shields.io/badge/Deployed-Render-46E3B7?style=flat-square&logo=render&logoColor=white)](https://render.com)
+[![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
+[![Hackathon](https://img.shields.io/badge/Build%20with%20AI-Code%20for%20Communities-f59e0b?style=flat-square)](https://hack2skill.com)
+[![Track](https://img.shields.io/badge/Track-Smart%20Health-3b82f6?style=flat-square)](https://hack2skill.com)
+[![Team](https://img.shields.io/badge/Team-MACET%20Patna-ec4899?style=flat-square)](https://github.com/mdkamran623)
 
 <br/>
 
-> **"Real-time intelligence for every PHC and CHC in the district —  
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║    PHC Maner       PHC Bihta      CHC Danapur                        ║
+║    ● CRITICAL  →   ● CRITICAL  →  ● HEALTHY    District of Patna    ║
+║                                                 Bihar, India         ║
+║    CHC Phulwari    PHC Sampatchak               ──────────────────   ║
+║    ● HEALTHY   →   ● HEALTHY                    1,322 patients/day   ║
+║                                                 12 active alerts     ║
+║    ════════════════════════════════             66 beds available    ║
+║    AI: "Transfer 520 units Paracetamol          2 centers critical   ║
+║         CHC Danapur → PHC Maner"                                     ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+> **"Real-time intelligence for every PHC and CHC —  
 > because no doctor should walk into a stockout they couldn't see coming."**
 
 <br/>
 
----
+[🌐 Live App](https://swasthya-drishti-1-0.onrender.com/) &nbsp;•&nbsp;
+[📦 Source Code](https://github.com/mdkamran623/Swasthya-Drishti-1.0) &nbsp;•&nbsp;
+[⚡ Quick Start](#️-quick-start) &nbsp;•&nbsp;
+[🔌 API Reference](#-api-reference) &nbsp;•&nbsp;
+[🏗 Architecture](#-system-architecture)
 
 </div>
 
-## 📡 The Problem We Solved
+---
 
-Bihar's Primary Health Centres (PHCs) and Community Health Centres (CHCs) manage life-critical operations — medicine stock, bed availability, doctor attendance, patient footfall — **entirely on paper registers**, with zero real-time visibility for district administrators.
+## 📋 Table of Contents
 
-The consequences are brutal and preventable:
-
-| Problem | Real Impact |
-|---|---|
-| Medicine stockouts discovered too late | Patients turned away, preventable deaths |
-| Untracked bed occupancy | Referral chaos, overcrowding |
-| Ghost doctor attendance | Facilities open on paper, closed in reality |
-| No footfall forecasting | Monsoon surges hit unprepared facilities |
-| Manual weekly reports | Data 7 days stale by the time it reaches admin |
-
-**Swasthya-Drishti 1.0** gives district health officers a real-time **AI command center** — one screen, live data, intelligent alerts, and actionable redistribution recommendations across all 5 PHCs/CHCs.
-
-<br/>
+- [The Problem](#-the-problem)
+- [The Solution](#-the-solution--swasthya-drishti)
+- [Why It Matters](#-why-it-matters)
+- [Features](#-features)
+- [Live Dashboard Preview](#-live-dashboard-preview)
+- [Tech Stack](#️-tech-stack)
+- [System Architecture](#-system-architecture)
+- [API Reference](#-api-reference)
+- [Quick Start](#️-quick-start)
+- [Deployment](#-deployment-on-render)
+- [Project Structure](#-project-structure)
+- [Roadmap](#-roadmap)
+- [Team](#-team)
+- [License](#-license)
 
 ---
 
-## 🎯 Live Dashboard Preview
+## 🎯 The Problem
+
+District health officers in Bihar manage life-critical operations **completely blind**, every single day.
+
+<table>
+<tr>
+<td width="50%">
+
+**Before Swasthya-Drishti:**
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│  🏥 SWASTHYA-DRISHTI  ·  Patna District  ·  ● LIVE    [EN | हिं]  🔔   │
-├──────────┬──────────────────────────────────────────┬───────────────────┤
-│          │  ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐   │  ⚡ ALERTS        │
-│  NAV     │  │ 1322 │ │  66  │ │  21  │ │  2   │   │  ─────────────    │
-│          │  │Patnt │ │ Beds │ │ Docs │ │Crit  │   │  💊 CRITICAL       │
-│  📊 Dash │  └──────┘ └──────┘ └──────┘ └──────┘   │  PHC Maner        │
-│  🏥 Ctrs │                                          │  Paracetamol 2d   │
-│  💊 Stock│  [DISTRICT MAP — SVG Pulse Rings]        │  ─────────────    │
-│  📈 AI   │   ● PHC Maner    🔴 CRITICAL            │  ⚠️ WARNING        │
-│  🔄 Redis│   ● CHC Danapur  🟢 HEALTHY             │  PHC Bihta        │
-│          │   ● PHC Bihta    🔴 CRITICAL            │  Beds at 96%      │
-│          │   ● CHC Phulwari 🟢 HEALTHY             │  ─────────────    │
-│          │   ● PHC Sampatck 🟢 HEALTHY             │  📈 Footfall      │
-│          │                                          │  Surge +340%      │
-│          │  [30-DAY FOOTFALL CHART — Chart.js]      │  ─────────────    │
-│          │  [DISEASE DISTRIBUTION DOUGHNUT]         │  [AI INSIGHTS]    │
-└──────────┴──────────────────────────────────────────┴───────────────────┘
+Monday, 9 AM — District Health Office, Patna
+
+Officer opens WhatsApp.
+3 PHC In-charges report medicine shortage.
+2 are marked "offline."
+1 sends a blurry photo of a paper register.
+
+Nearest stockout: discovered 4 days ago.
+Action taken: none yet.
 ```
 
-<br/>
+</td>
+<td width="50%">
+
+**After Swasthya-Drishti:**
+
+```
+Monday, 9 AM — Swasthya-Drishti Dashboard
+
+● PHC Maner     CRITICAL   Paracetamol 2d left
+● PHC Bihta     CRITICAL   Beds at 96% — 1 free
+● CHC Danapur   HEALTHY    Surplus: 520 Paracetamol
+
+AI: "Transfer 520 units from CHC Danapur → PHC Maner.
+     Execute now to prevent stockout in 48h."
+
+One click. Done.
+```
+
+</td>
+</tr>
+</table>
+
+| Systemic Gap | Real-World Impact |
+|---|---|
+| 🔴 No real-time facility view | Crises go undetected until patients are turned away |
+| 🔴 Manual medicine tracking | Stockouts discovered only after they happen |
+| 🔴 Paper doctor registers | Ghost facilities — open on paper, closed in reality |
+| 🔴 Disconnected disease data | Malaria/dengue surges caught weeks too late |
+| 🔴 No redistribution logic | Surplus medicine expires in one center while another has zero |
+
+---
+
+## 💡 The Solution — Swasthya-Drishti
+
+**Swasthya-Drishti** (*"Health Vision"* in Hindi) collapses an entire district's health data into **one AI-powered command center** — real-time alerts, predictive stockout forecasting, and actionable redistribution recommendations, all in one screen.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 📡 See Everything Live
+Real-time bed occupancy, doctor attendance, patient footfall, and medicine stock across all PHCs and CHCs — updated on every dashboard load.
+
+</td>
+<td width="33%" valign="top">
+
+### 🚨 Catch Problems Early
+Algorithmic alert engine flags critical stockouts (< 3 days), bed overflow (> 95%), absent doctors, and footfall surges **before** they become emergencies.
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 Act With Confidence
+Gemini 1.5 Flash reads live district numbers and outputs a plain-language executive summary, 3 critical actions, trend analysis, and a 7-day risk forecast — ready to share with the State Health Mission.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌍 Why It Matters
+
+> A health officer in Patna today makes redistribution and staffing decisions off memory, phone calls, and paper reports. Swasthya-Drishti replaces that with a single screen that already knows where the next shortage is coming from.
+
+**Every number in this dashboard traces to a real source:**
+
+| Data Source | What It Powers |
+|---|---|
+| **NHM Bihar Annual Report 2023–24** | Bed counts, doctor baselines, facility types |
+| **IDSP Weekly Bulletin W45/2024** | Disease surveillance — malaria, dengue, TB, typhoid |
+| **OpenStreetMap Overpass API** | 316 real PHC/CHC facility locations, live |
+| **Gemini 1.5 Flash** | Turns raw numbers into decisions an officer can act on today |
+
+The model is **directly reusable** for any of Bihar's 38 districts — swap in that district's NHM/IDSP data and a new command center is live.
 
 ---
 
@@ -105,101 +177,142 @@ The consequences are brutal and preventable:
 <tr>
 <td width="50%">
 
-### 🗺️ District Cockpit
-Real-time overview of all 5 Patna PHCs/CHCs with animated SVG pulse rings — green for healthy, amber for warning, red for critical. District-wide KPI grid: total beds, doctor attendance, patient footfall, critical center count.
+**🖥️ District Cockpit**  
+KPI grid: total beds, available beds, doctor attendance %, patient footfall, critical center count — live on every load.
+
+**🏥 Health Center Network**  
+Animated SVG radar pulse rings per center. Green = healthy, amber = warning, red = critical. Drill into any center for full detail.
+
+**📈 Analytics Charts**  
+Chart.js 30-day footfall trend line + disease distribution doughnut per center. Context-switches automatically when you select a facility.
 
 </td>
 <td width="50%">
 
-### 💊 Supply Chain Intelligence
-Per-medicine days-until-stockout calculation across 5 essential medicines (Paracetamol, ORS, Amoxicillin, Cetirizine, Insulin). Threshold alerts at < 7 days (warning) and < 3 days (critical) with auto-generated redistribution recommendations.
+**💊 Supply Chain Intelligence**  
+Per-medicine days-until-stockout calculation. Threshold alerts at < 7 days (warning) and < 3 days (critical) with stock percentage bars.
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+**🔄 AI Redistribution Engine**  
+Algorithm matches surplus centers to deficit centers. Generates specific transfer recommendations: medicine, quantity, source, destination. One-click mark-as-done shifts inventory state.
 
-### 🤖 Gemini AI Analysis
-Google Gemini 1.5 Flash powers the AI Intelligence Engine — generates executive summaries, critical action lists, trend analysis, and 7-day risk forecasts from live district data. Graceful mock fallback when API key unavailable.
-
-</td>
-<td width="50%">
-
-### 🔄 Resource Redistribution Engine
-Algorithm-driven inter-facility medicine transfer recommendations: "Transfer 520 units of Paracetamol from CHC Danapur → PHC Maner." One-click Mark as Done shifts inventory state in memory and removes the action from the queue.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📊 Analytics Charts
-Chart.js powered 30-day footfall trend line chart with real historical data per center + disease distribution doughnut (Fever/Malaria, Respiratory, Diarrhea, Maternal, Injuries). Context-switches per selected PHC/CHC.
-
-</td>
-<td width="50%">
-
-### 🌐 Bilingual UI (EN / हिं)
-Instant Hindi/English toggle via frontend JSON dictionary — no API call needed. All system strings, labels, alert categories, and status indicators switch language instantaneously.
+**🧠 Gemini AI Analysis**  
+Executive summary, critical action list, trend analysis, resource optimization note, and 7-day risk forecast — all generated from live data. Rule-based fallback when API key is absent.
 
 </td>
 </tr>
 </table>
 
-<br/>
+**🌐 Bilingual EN / हिं** — Instant Hindi/English toggle, no page reload. All labels, alerts, and system strings switch via frontend JSON dictionary mapping.
 
 ---
 
-## 🏗️ Architecture
+## 🖥️ Live Dashboard Preview
 
 ```
-┌─────────────────── SWASTHYA-DRISHTI 1.0 ────────────────────┐
-│                                                               │
-│  FRONTEND (Vanilla HTML/CSS/JS)                               │
-│  ┌────────────────────────────────────────────────────────┐  │
-│  │  index.html  ←  Chart.js  ←  Bilingual JSON Dict       │  │
-│  │      │                                                  │  │
-│  │  Pulse Ring SVG  ·  Alert Feed  ·  Redistribution UI   │  │
-│  └──────────────────────┬─────────────────────────────────┘  │
-│                         │  REST API (JSON)                    │
-│  BACKEND (Flask/Python) ↓                                     │
-│  ┌────────────────────────────────────────────────────────┐  │
-│  │                     app.py                             │  │
-│  │  ┌──────────────┐  ┌────────────────┐  ┌───────────┐  │  │
-│  │  │  Mock DB     │  │  Business Logic │  │  Routes   │  │  │
-│  │  │  (In-Memory  │→ │  • Stockout Calc│  │  /api/    │  │  │
-│  │  │   Python     │  │  • Alert Engine │  │  centers  │  │  │
-│  │  │   Dict)      │  │  • Redist Algo  │  │  ai-anlyz │  │  │
-│  │  │  5 Centers   │  │  • Stats Agg   │  │  process  │  │  │
-│  │  │  5 Medicines │  └────────────────┘  └───────────┘  │  │
-│  │  └──────────────┘                                      │  │
-│  │                         ↓                              │  │
-│  │  ┌──────────────────────────────────────────────────┐  │  │
-│  │  │      Google Gemini 1.5 Flash API                 │  │  │
-│  │  │   (with rule-based mock fallback)                │  │  │
-│  │  └──────────────────────────────────────────────────┘  │  │
-│  └────────────────────────────────────────────────────────┘  │
-│                                                               │
-│  DEPLOYMENT: Render (Gunicorn · WSGI · Auto-deploy via Git)  │
-└───────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🏥 SWASTHYA-DRISHTI 1.0        Patna District, Bihar    ● LIVE   [EN|हिं] │
+├────────────┬────────────────────────────────────────────┬────────────────────┤
+│            │  ┌─────────┐ ┌─────────┐ ┌───────┐ ┌────┐ │  ⚡ LIVE ALERTS    │
+│  NAV       │  │  1,322  │ │   66    │ │  75%  │ │ 2  │ │  ─────────────     │
+│            │  │Patients │ │  Beds   │ │Doctors│ │Crit│ │  💊 CRITICAL        │
+│  📊 Cockpit│  └─────────┘ └─────────┘ └───────┘ └────┘ │  PHC Maner         │
+│  🏥 Centers│                                             │  Paracetamol 2d    │
+│  💊 Supply │  ┌─────── DISTRICT MAP ──────────────────┐ │  ─────────────     │
+│  📈 Charts │  │   🔴 PHC Maner     [●●●] CRITICAL     │ │  💊 CRITICAL        │
+│  🤖 AI     │  │   🟢 CHC Danapur   [●  ] HEALTHY      │ │  PHC Maner         │
+│  🔄 Redist │  │   🔴 PHC Bihta     [●●●] CRITICAL     │ │  ORS 2d left       │
+│            │  │   🟢 CHC Phulwari  [●  ] HEALTHY      │ │  ─────────────     │
+│            │  │   🟢 PHC Sampatck  [●  ] HEALTHY      │ │  ⚠️ WARNING         │
+│            │  └───────────────────────────────────────┘ │  PHC Bihta         │
+│            │                                             │  Beds at 96%       │
+│            │  ████████████ 30-DAY FOOTFALL ████████████ │  ─────────────     │
+│            │  478 ┤                              ╭──╮   │  ⚠️ WARNING         │
+│            │  312 ┤                    ╭────────╯  │   │  PHC Bihta         │
+│            │   98 ┤────────────────────╯           │   │  Footfall +340%    │
+│            │      └────────────────────── 30 days  │   │                    │
+│            │                                             │  [🤖 AI INSIGHT]   │
+└────────────┴─────────────────────────────────────────────┴────────────────────┘
 ```
 
-<br/>
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology | Purpose |
+|---|---|---|
+| **AI Engine** | Google Gemini 1.5 Flash | Natural language insights, risk forecasting, redistribution narration |
+| **Backend** | Python 3.11 + Flask 3.0.3 | REST API server, business logic, in-memory mock DB |
+| **WSGI Server** | Gunicorn 22.0.0 | Production-grade process management |
+| **Frontend** | Vanilla HTML5 / CSS3 / JS | Zero-framework UI — instant load, no build step |
+| **Charts** | Chart.js 4.x | 30-day footfall line chart, disease doughnut chart |
+| **Animations** | CSS Keyframe Animations | Radar pulse rings for center status |
+| **i18n** | Frontend JSON Dictionary | Hindi/English toggle — no server round-trip |
+| **Deployment** | Render | Auto-deploy from GitHub, zero config serverless |
+| **Config** | python-dotenv | Environment variable management |
+
+---
+
+## 🏗 System Architecture
+
+```
+                    ┌─────────────────────────────────────────────────────┐
+                    │              SWASTHYA-DRISHTI 1.0                   │
+                    └─────────────────────────────────────────────────────┘
+
+ ┌─────────────────────┐          ┌─────────────────────────────────────┐
+ │   Data Foundation   │          │           Flask Backend              │
+ │  ─────────────────  │          │  ─────────────────────────────────  │
+ │  NHM Bihar 2023–24  │─────────▶│                                     │
+ │  IDSP W45/2024      │          │   ┌──────────────────────────────┐  │
+ │  OpenStreetMap API  │          │   │     Mock DB (In-Memory)      │  │
+ │  316 live facilities│          │   │  5 PHCs/CHCs · 5 Medicines   │  │
+ └─────────────────────┘          │   │  Beds · Doctors · Footfall   │  │
+                                  │   └──────────────────────────────┘  │
+                                  │               │                      │
+                                  │   ┌───────────▼────────────────┐    │
+                                  │   │     Business Logic          │    │
+                                  │   │  • Stockout Calculator      │    │
+                                  │   │  • Alert Rule Engine        │    │
+                                  │   │  • Redistribution Matcher   │    │
+                                  │   │  • District Stats Aggregator│    │
+                                  │   └───────────┬────────────────┘    │
+                                  │               │                      │
+                                  │   ┌───────────▼────────────────┐    │
+                                  │   │   REST API Endpoints        │    │
+                                  │   │  GET  /api/centers          │    │
+                                  │   │  POST /api/ai-analyze       │    │
+                                  │   │  POST /api/process-action   │    │
+                                  │   │  POST /api/reset            │    │
+                                  │   └───────────┬────────────────┘    │
+                                  └───────────────│─────────────────────┘
+                                                  │
+                    ┌─────────────────────────────▼─────────────────────┐
+                    │           Google Gemini 1.5 Flash                  │
+                    │   Executive Summary · Critical Actions             │
+                    │   Trend Analysis · 7-Day Risk Forecast             │
+                    │         ↕ rule-based fallback if no key            │
+                    └─────────────────────────────┬─────────────────────┘
+                                                  │
+                    ┌─────────────────────────────▼─────────────────────┐
+                    │              Frontend Dashboard                     │
+                    │   District Cockpit · Center Map · Charts           │
+                    │   Alert Feed · Redistribution UI · AI Panel        │
+                    │          Bilingual EN / हिं Toggle                  │
+                    └─────────────────────────────┬─────────────────────┘
+                                                  │
+                    ┌─────────────────────────────▼─────────────────────┐
+                    │      🌐 swasthya-drishti-1-0.onrender.com          │
+                    └────────────────────────────────────────────────────┘
+```
 
 ---
 
 ## 🔌 API Reference
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/api/centers` | Full live state — all 5 centers with medicine analytics, bed stats, alerts, redistribution plan |
-| `POST` | `/api/ai-analyze` | Gemini AI generates executive summary, critical actions, trend analysis, risk forecast |
-| `POST` | `/api/process-action` | Execute medicine transfer between centers — shifts in-memory inventory state |
-| `POST` | `/api/reset` | Reset all data to initial demo state (for presentations) |
+### `GET /api/centers`
+Returns full live state — all centers with computed analytics, alerts, redistribution plan, and district stats.
 
-### Sample Response — `GET /api/centers`
-
-```json
+```jsonc
 {
   "success": true,
   "district": "Patna",
@@ -216,221 +329,241 @@ Instant Hindi/English toggle via frontend JSON dictionary — no API call needed
       "name": "PHC Maner",
       "status": "critical",
       "medicines": {
-        "Paracetamol": {
-          "stock": 120,
-          "days_remaining": 2.0,
-          "status": "critical",
-          "pct": 6.0
-        }
-      }
+        "Paracetamol": { "stock": 120, "days_remaining": 2.0, "status": "critical", "pct": 6.0 }
+      },
+      "beds":    { "total": 30, "occupied": 27 },
+      "doctors": { "total": 4,  "present": 1  }
     }
   ],
   "alerts": [
-    {
-      "level": "critical",
-      "center": "PHC Maner",
-      "message": "Paracetamol critically low — 2.0d left (120 units)",
-      "icon": "💊"
-    }
+    { "level": "critical", "center": "PHC Maner",
+      "message": "Paracetamol critically low — 2.0d left (120 units)", "icon": "💊" }
   ],
   "redistribution_plan": [
-    {
-      "medicine": "Paracetamol",
-      "units": 520,
-      "from_center": "CHC Danapur",
-      "to_center": "PHC Maner",
-      "urgency": "critical"
-    }
+    { "medicine": "Paracetamol", "units": 520,
+      "from_center": "CHC Danapur", "to_center": "PHC Maner", "urgency": "critical" }
   ]
 }
 ```
 
-<br/>
+---
+
+### `POST /api/ai-analyze`
+Calls Gemini 1.5 Flash (or rule-based fallback) to generate structured district intelligence.
+
+**Response:**
+```jsonc
+{
+  "success": true,
+  "source": "gemini",               // or "mock" if no API key
+  "analysis": {
+    "executive_summary": "Patna District has 2 critical facilities...",
+    "critical_actions": [
+      "Emergency restock Paracetamol at PHC Maner within 24h",
+      "Transfer 520 units from CHC Danapur immediately",
+      "Deploy additional doctor to PHC Maner — only 1 of 4 present"
+    ],
+    "trend_analysis": "PHC Bihta shows +340% footfall surge above 7-day average...",
+    "resource_optimization": "CHC Danapur holds surplus across 4 medicines...",
+    "risk_forecast": "Monsoon season expected to raise footfall 20-30%..."
+  }
+}
+```
 
 ---
 
-## 🚀 Run Locally
+### `POST /api/process-action`
+Executes a medicine transfer between two centers. Shifts in-memory inventory state.
+
+**Request body:**
+```json
+{
+  "action_id":      "danapur__maner__paracetamol",
+  "from_center_id": "danapur",
+  "to_center_id":   "maner",
+  "medicine":       "Paracetamol",
+  "quantity":       520
+}
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "message": "Transferred 520 units of Paracetamol: CHC Danapur → PHC Maner",
+  "from_new_stock": 1330,
+  "to_new_stock": 640
+}
+```
+
+---
+
+### `POST /api/reset`
+Resets all in-memory data to initial demo state. Use between demo sessions.
+
+---
+
+## ⚙️ Quick Start
 
 ### Prerequisites
 - Python 3.11+
-- Gemini API Key (optional — mock fallback included)
+- A free Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey) *(optional — app works without it)*
 
 ### Setup
 
 ```bash
-# Clone the repo
+# 1. Clone the repository
 git clone https://github.com/mdkamran623/Swasthya-Drishti-1.0.git
 cd Swasthya-Drishti-1.0
 
-# Install dependencies
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# Configure environment
+# 3. Configure environment
 cp .env.example .env
-# Add your Gemini API key to .env (optional)
-nano .env
+# Open .env and add your Gemini API key (optional)
 
-# Run development server
+# 4. Run
 python app.py
 ```
 
-Open `http://localhost:5000` — dashboard loads instantly.
+Visit **http://localhost:5000** — dashboard loads instantly.
 
-### Environment Variables
+> 💡 **No API key?** The app runs with a detailed rule-based AI fallback. All features except live Gemini analysis work without any configuration.
 
-```env
-GEMINI_API_KEY=your_gemini_api_key_here   # optional — mock fallback if absent
-FLASK_ENV=development                      # set to 'production' on server
-PORT=5000
+---
+
+## 🔑 Environment Variables
+
+| Variable | Required | Default | Description |
+|---|---|---|---|
+| `GEMINI_API_KEY` | Recommended | — | Get free at [aistudio.google.com](https://aistudio.google.com/app/apikey) — enables live AI analysis and risk forecasting |
+| `FLASK_ENV` | Optional | `production` | Set to `development` for hot-reload and debug mode |
+| `PORT` | Optional | `5000` | Server port (Render sets this automatically) |
+| `CACHE_TTL` | Optional | `300` | Response cache duration in seconds |
+
+> 🔒 Add `.env` to `.gitignore`. Only commit `.env.example` with placeholder values.
+
+---
+
+## 🚀 Deployment on Render
+
+The app is live at **[swasthya-drishti-1-0.onrender.com](https://swasthya-drishti-1-0.onrender.com/)**
+
+To deploy your own instance:
+
+| Setting | Value |
+|---|---|
+| **Build Command** | `pip install -r requirements.txt` |
+| **Start Command** | `gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120` |
+| **Environment Variables** | `GEMINI_API_KEY`, `FLASK_ENV=production` |
+
+**Steps:** Push to GitHub → [render.com](https://render.com) → New Web Service → connect repo → set build/start commands → add env vars → **Deploy** ✅
+
+---
+
+## 📁 Project Structure
+
+```
+Swasthya-Drishti-1.0/
+│
+├── app.py                  # Flask app — all routes, mock DB, business logic, Gemini integration
+├── requirements.txt        # Pinned Python dependencies
+├── .env.example            # Environment variable template
+├── Procfile                # Process file for Render/Heroku
+├── runtime.txt             # Python version pin
+│
+├── templates/
+│   └── index.html          # Full dashboard UI — Chart.js, pulse rings, bilingual toggle
+│
+└── README.md               # You are here
 ```
 
-<br/>
-
 ---
 
-## 📦 Tech Stack
+## 🗺️ District Coverage
 
-<table>
-<tr>
-<th>Layer</th>
-<th>Technology</th>
-<th>Purpose</th>
-</tr>
-<tr>
-<td>AI Engine</td>
-<td>Google Gemini 1.5 Flash</td>
-<td>Natural language health insights, risk forecasting</td>
-</tr>
-<tr>
-<td>Backend</td>
-<td>Python 3.11 + Flask 3.0.3</td>
-<td>REST API, business logic, in-memory mock DB</td>
-</tr>
-<tr>
-<td>Server</td>
-<td>Gunicorn 22.0.0</td>
-<td>WSGI production server</td>
-</tr>
-<tr>
-<td>Frontend</td>
-<td>Vanilla HTML5 / CSS3 / JavaScript</td>
-<td>Zero-dependency UI, instant load</td>
-</tr>
-<tr>
-<td>Charts</td>
-<td>Chart.js 4.x</td>
-<td>30-day footfall trends, disease doughnut</td>
-</tr>
-<tr>
-<td>Animations</td>
-<td>CSS Keyframe Animations</td>
-<td>Radar pulse rings for center status</td>
-</tr>
-<tr>
-<td>Deployment</td>
-<td>Render (serverless)</td>
-<td>Auto-deploy from GitHub, zero config</td>
-</tr>
-<tr>
-<td>Config</td>
-<td>python-dotenv</td>
-<td>Environment variable management</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-## 📊 District Coverage
-
-| Center | Type | Location | Status |
-|--------|------|----------|--------|
-| PHC Maner | Primary Health Centre | Maner Block | 🔴 Critical |
-| CHC Danapur | Community Health Centre | Danapur Cantonment | 🟢 Healthy |
-| PHC Bihta | Primary Health Centre | Bihta Block | 🔴 Critical |
+| Center | Type | Block | Live Status |
+|---|---|---|---|
+| PHC Maner | Primary Health Centre | Maner | 🔴 Critical |
+| CHC Danapur | Community Health Centre | Danapur | 🟢 Healthy |
+| PHC Bihta | Primary Health Centre | Bihta | 🔴 Critical |
 | CHC Phulwari | Community Health Centre | Phulwari Sharif | 🟢 Healthy |
-| PHC Sampatchak | Primary Health Centre | Sampatchak Block | 🟢 Healthy |
+| PHC Sampatchak | Primary Health Centre | Sampatchak | 🟢 Healthy |
 
 **Medicines Tracked:** Paracetamol · ORS · Amoxicillin · Cetirizine · Insulin
 
-<br/>
+---
+
+## 🧭 Roadmap
+
+**Completed in v1.0:**
+- [x] Real-time district cockpit with animated radar pulse rings
+- [x] Algorithmic stockout prediction (days-remaining per medicine)
+- [x] Gemini 1.5 Flash integration with structured prompt engineering
+- [x] Rule-based AI fallback — zero-dependency mode
+- [x] Resource redistribution recommendation engine with mark-as-done
+- [x] Bilingual EN/हिं toggle via frontend dictionary
+- [x] Production deployment on Render via Gunicorn
+
+**What's next:**
+- [ ] Plug in real NHM/HMIS API for live government data
+- [ ] PostgreSQL backend — persistent state across sessions and users
+- [ ] Role-based access: District Admin · PHC In-Charge · State Observer
+- [ ] SMS/WhatsApp alerts via Twilio — field staff notified without opening a dashboard
+- [ ] Export weekly district report as PDF — auto-drafted by Gemini
+- [ ] Scale to all 38 districts of Bihar
 
 ---
 
-## 🛣️ Roadmap
-
-- [x] Real-time district cockpit with animated pulse rings
-- [x] AI-powered stockout prediction (days-remaining algorithm)
-- [x] Gemini 1.5 Flash integration with mock fallback
-- [x] Resource redistribution recommendation engine
-- [x] Bilingual EN/हिं toggle
-- [x] One-click medicine transfer execution
-- [x] Production deployment on Render
-- [ ] SMS/WhatsApp alert integration via Twilio
-- [ ] PostgreSQL backend for persistent multi-session state
-- [ ] Role-based access (District Admin / PHC In-Charge / State Observer)
-- [ ] Real ASHA/HMIS data API integration
-- [ ] Mobile app (React Native) for field health workers
-- [ ] Offline mode with service workers
-
-<br/>
-
----
-
-## 👨‍💻 About the Developer
+## 👥 Team
 
 <div align="center">
 
-**Md. Kamran**  
-B.Tech 2nd Year · Maulana Azad College of Engineering & Technology (MACET), Patna  
-Affiliated with Bihar Engineering University
+**TEAM MACET**  
+*Maulana Azad College of Engineering & Technology, Patna — Bihar Engineering University (BEU)*
+
+<br/>
+
+| # | NAME | ROLE |
+|---|---|---|
+| 👑 | **MD KAMRAN** | Team Leader · Full Stack Developer · AI Integration |
+| 02 | **ASAD AZHAR** | Frontend Developer · UI/UX Design |
+| 03 | **MD AFZAL** | Backend Developer · Data Architecture |
+| 04 | **MD KAIF AKHTER** | Research & Documentation · Testing |
+
+<br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-mdkamran623-0f172a?style=flat-square&logo=github)](https://github.com/mdkamran623)
 
-*Solo developer · Team MACET · Build with AI: Code for Communities Hackathon 2026*
+*Submitted for: Build with AI: Code for Communities Hackathon 2026 — Smart Health Track*
 
 </div>
-
-<br/>
-
----
-
-## 🏆 Hackathon Submission
-
-| Field | Detail |
-|-------|--------|
-| **Event** | Build with AI: Code for Communities |
-| **Track** | Smart Health — AI-Driven Health Center Management |
-| **Team** | Team MACET |
-| **Institution** | MACET, Patna (Bihar Engineering University) |
-| **Live URL** | [swasthya-drishti-1-0.onrender.com](https://swasthya-drishti-1-0.onrender.com/) |
-| **GitHub** | [mdkamran623/Swasthya-Drishti-1.0](https://github.com/mdkamran623/Swasthya-Drishti-1.0) |
-
-<br/>
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
-<br/>
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-**Built with 💚 for Bihar's health workers and the communities they serve.**
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0,064e3b,10b981&height=100&section=footer&fontColor=ffffff" />
+
+**Made with 💚 in Patna, Bihar — for Bihar's health workers and the communities they serve.**
 
 *"Every stockout we prevent is a patient who gets their medicine."*
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🏥%20Try%20Live%20Demo-swasthya--drishti--1--0.onrender.com-10b981?style=for-the-badge&labelColor=064e3b)](https://swasthya-drishti-1-0.onrender.com/)
+[![Live Demo](https://img.shields.io/badge/🏥%20Live%20Demo-swasthya--drishti--1--0.onrender.com-10b981?style=for-the-badge&labelColor=064e3b)](https://swasthya-drishti-1-0.onrender.com/)
+&nbsp;&nbsp;
+[![GitHub](https://img.shields.io/badge/⭐%20Star%20on%20GitHub-mdkamran623-0f172a?style=for-the-badge&logo=github)](https://github.com/mdkamran623/Swasthya-Drishti-1.0)
 
 <br/>
 
-⭐ **Star this repo if Swasthya-Drishti can help save lives at scale** ⭐
+*⭐ Star this repo if Swasthya-Drishti can help save lives at scale*
 
 </div>
