@@ -1145,6 +1145,72 @@ function boot() {
   // Initial data load
   load(false);
 
+     // ============================================
+  // 🔥 MOBILE HEADER FIX - JavaScript
+  // ============================================
+  
+  function fixMobileHeader() {
+    const topbar = document.getElementById('topbar');
+    if (!topbar) return;
+    
+    // Force visibility
+    topbar.style.display = 'flex';
+    topbar.style.visibility = 'visible';
+    topbar.style.opacity = '1';
+    topbar.style.position = 'sticky';
+    topbar.style.top = '0';
+    topbar.style.zIndex = '1000';
+    
+    // Check if topbar is actually visible
+    const rect = topbar.getBoundingClientRect();
+    if (rect.top < -10 || rect.height < 30) {
+      // Topbar hidden - force fix
+      topbar.style.position = 'fixed';
+      topbar.style.top = '0';
+      topbar.style.left = '0';
+      topbar.style.right = '0';
+      topbar.style.width = '100%';
+      topbar.style.zIndex = '9999';
+      
+      // Push content down
+      const main = document.getElementById('main');
+      if (main) {
+        main.style.paddingTop = `${rect.height || 56}px`;
+      }
+    } else {
+      // Reset
+      topbar.style.position = 'sticky';
+      const main = document.getElementById('main');
+      if (main) {
+        main.style.paddingTop = '0';
+      }
+    }
+  }
+
+  function initMobileHeaderFix() {
+    // Initial fix
+    setTimeout(fixMobileHeader, 100);
+    setTimeout(fixMobileHeader, 500);
+    
+    // Multiple events
+    const events = ['scroll', 'resize', 'touchmove', 'orientationchange', 'focus'];
+    events.forEach(event => {
+      window.addEventListener(event, fixMobileHeader);
+    });
+    
+    // Safety interval
+    setInterval(fixMobileHeader, 2000);
+    
+    // Mutation observer for DOM changes
+    const observer = new MutationObserver(() => {
+      fixMobileHeader();
+    });
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+  }
+
+  // Call the fix
+  initMobileHeaderFix();
+
   // Auto-refresh every 60 seconds
   S.timer = setInterval(() => load(true), 60_000);
 }
