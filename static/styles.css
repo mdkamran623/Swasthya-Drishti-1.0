@@ -2677,3 +2677,12 @@ tbody td:first-child { color: var(--t1); font-weight: 600; }
 .view {
     padding-bottom: 80px !important;
 }
+
+#top-bar-id {
+    display: flex !important; 
+    visibility: visible !important;
+    position: sticky !important;
+}
+
+.kpi-active {
+}
