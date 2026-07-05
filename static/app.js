@@ -1216,3 +1216,35 @@ function boot() {
 }
 
 document.addEventListener('DOMContentLoaded', boot);
+
+
+  // ============================================
+  // 🚀 MOBILE TOPBAR FORCE VISIBLE
+  // ============================================
+  
+  function forceShowTopbar() {
+    const topbar = document.getElementById('topbar');
+    if (topbar) {
+      topbar.style.display = 'flex';
+      topbar.style.visibility = 'visible';
+      topbar.style.opacity = '1';
+      if (window.innerWidth <= 768) {
+        topbar.style.position = 'fixed';
+        topbar.style.top = '0';
+        topbar.style.left = '0';
+        topbar.style.right = '0';
+        topbar.style.width = '100%';
+        topbar.style.zIndex = '99999';
+      }
+    }
+  }
+
+  const events = ['scroll', 'touchstart', 'touchend', 'click', 'focus', 'resize', 'orientationchange'];
+  events.forEach(event => {
+    window.addEventListener(event, forceShowTopbar);
+  });
+
+  setInterval(forceShowTopbar, 2000);
+  setTimeout(forceShowTopbar, 100);
+  setTimeout(forceShowTopbar, 500);
+  window.addEventListener('resize', forceShowTopbar);
