@@ -1211,14 +1211,7 @@ function boot() {
   // Call the fix
   initMobileHeaderFix();
 
-  // Auto-refresh every 60 seconds
-  S.timer = setInterval(() => load(true), 60_000);
-}
-
-document.addEventListener('DOMContentLoaded', boot);
-
-
-  // ============================================
+     // ============================================
   // 🚀 MOBILE TOPBAR FORCE VISIBLE
   // ============================================
   
@@ -1248,3 +1241,11 @@ document.addEventListener('DOMContentLoaded', boot);
   setTimeout(forceShowTopbar, 100);
   setTimeout(forceShowTopbar, 500);
   window.addEventListener('resize', forceShowTopbar);
+
+   
+
+  // Auto-refresh every 60 seconds
+  S.timer = setInterval(() => load(true), 60_000);
+}
+
+document.addEventListener('DOMContentLoaded', boot);
