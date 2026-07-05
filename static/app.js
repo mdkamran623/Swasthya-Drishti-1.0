@@ -1145,104 +1145,63 @@ function boot() {
   // Initial data load
   load(false);
 
-     // ============================================
-  // 🔥 MOBILE HEADER FIX - JavaScript
+  // ============================================
+  // 🚀 ULTIMATE MOBILE TOPBAR FIX (SINGLE SOLUTION)
   // ============================================
   
-  function fixMobileHeader() {
+  function fixMobileTopbar() {
     const topbar = document.getElementById('topbar');
     if (!topbar) return;
     
-    // Force visibility
+    // Force visible
     topbar.style.display = 'flex';
     topbar.style.visibility = 'visible';
     topbar.style.opacity = '1';
-    topbar.style.position = 'sticky';
-    topbar.style.top = '0';
-    topbar.style.zIndex = '1000';
     
-    // Check if topbar is actually visible
-    const rect = topbar.getBoundingClientRect();
-    if (rect.top < -10 || rect.height < 30) {
-      // Topbar hidden - force fix
+    // Mobile par fixed position
+    if (window.innerWidth <= 768) {
       topbar.style.position = 'fixed';
       topbar.style.top = '0';
       topbar.style.left = '0';
       topbar.style.right = '0';
       topbar.style.width = '100%';
-      topbar.style.zIndex = '9999';
-      
-      // Push content down
-      const main = document.getElementById('main');
-      if (main) {
-        main.style.paddingTop = `${rect.height || 56}px`;
-      }
+      topbar.style.zIndex = '999999';
+      topbar.style.height = '56px';
+      topbar.style.minHeight = '56px';
+      topbar.style.maxHeight = '56px';
     } else {
-      // Reset
       topbar.style.position = 'sticky';
-      const main = document.getElementById('main');
-      if (main) {
-        main.style.paddingTop = '0';
-      }
+      topbar.style.top = '0';
+      topbar.style.zIndex = '1000';
+      topbar.style.height = '';
+      topbar.style.minHeight = '';
+      topbar.style.maxHeight = '';
     }
   }
 
-  function initMobileHeaderFix() {
-    // Initial fix
-    setTimeout(fixMobileHeader, 100);
-    setTimeout(fixMobileHeader, 500);
-    
-    // Multiple events
-    const events = ['scroll', 'resize', 'touchmove', 'orientationchange', 'focus'];
-    events.forEach(event => {
-      window.addEventListener(event, fixMobileHeader);
-    });
-    
-    // Safety interval
-    setInterval(fixMobileHeader, 2000);
-    
-    // Mutation observer for DOM changes
-    const observer = new MutationObserver(() => {
-      fixMobileHeader();
-    });
-    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
-  }
+  // Initial fix
+  fixMobileTopbar();
+  setTimeout(fixMobileTopbar, 100);
+  setTimeout(fixMobileTopbar, 300);
+  setTimeout(fixMobileTopbar, 500);
 
-  // Call the fix
-  initMobileHeaderFix();
-
-     // ============================================
-  // 🚀 MOBILE TOPBAR FORCE VISIBLE
-  // ============================================
-  
-  function forceShowTopbar() {
-    const topbar = document.getElementById('topbar');
-    if (topbar) {
-      topbar.style.display = 'flex';
-      topbar.style.visibility = 'visible';
-      topbar.style.opacity = '1';
-      if (window.innerWidth <= 768) {
-        topbar.style.position = 'fixed';
-        topbar.style.top = '0';
-        topbar.style.left = '0';
-        topbar.style.right = '0';
-        topbar.style.width = '100%';
-        topbar.style.zIndex = '99999';
-      }
-    }
-  }
-
-  const events = ['scroll', 'touchstart', 'touchend', 'click', 'focus', 'resize', 'orientationchange'];
-  events.forEach(event => {
-    window.addEventListener(event, forceShowTopbar);
+  // Har event par fix
+  const fixEvents = ['scroll', 'touchstart', 'touchend', 'click', 'focus', 'resize', 'orientationchange', 'load'];
+  fixEvents.forEach(event => {
+    window.addEventListener(event, fixMobileTopbar);
   });
 
-  setInterval(forceShowTopbar, 2000);
-  setTimeout(forceShowTopbar, 100);
-  setTimeout(forceShowTopbar, 500);
-  window.addEventListener('resize', forceShowTopbar);
+  // Har second check (safety net)
+  setInterval(fixMobileTopbar, 1000);
 
-   
+  // DOM changes par bhi check
+  const domObserver = new MutationObserver(fixMobileTopbar);
+  domObserver.observe(document.body, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ['style', 'class']
+  });
 
   // Auto-refresh every 60 seconds
   S.timer = setInterval(() => load(true), 60_000);
